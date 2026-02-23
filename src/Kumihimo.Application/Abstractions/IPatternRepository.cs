@@ -1,4 +1,4 @@
-﻿using Kumihimo.Domain.Models;
+﻿using Kumihimo.Domain.Entities.UserPatterns;
 
 namespace Kumihimo.Application.Abstractions;
 
