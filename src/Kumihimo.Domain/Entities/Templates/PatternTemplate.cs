@@ -8,8 +8,8 @@
 public abstract class PatternTemplate
 {
     public Guid Id { get; private set; } = Guid.NewGuid();
-    public string Name { get; protected set; } = string.Empty;
-    public string Description { get; protected set; } = string.Empty;
+    public string Name { get; protected set; } = null!;
+    public string Description { get; protected set; } = null!;
     public int PositionCount { get; protected set; }
 
     // Required by EF Core
